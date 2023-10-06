@@ -25,19 +25,46 @@ MAVROS is a ROS package that handles communication between our companion compute
 
 ## MAVLink
 MAVLink is just a protocol that is used to communicate commands and data
-https://mavlink.io/en/about/overview.html
+
+Also see
+> https://mavlink.io/en/about/overview.html
 
 ## ArduPilot
 Clone the ArduPilot github to your home folder.
-```cd
-git clone https://github.com/ArduPilot/ardupilot.git```
+```
+cd
+git clone https://github.com/ArduPilot/ardupilot.git
+```
 
-Once done, 
+Once done, go into the created directory.
+```
+cd ardupilot
+```
+
+Then run a setup script and reload the path
+ ```
+Tools/environment_install/install-prereqs-ubuntu.sh -y
+. ~/.profile
+./waf clean
+```
+
+Finally, build ArduPilot. This may take a while, (10-30 minutes).
+```
+waf configure build --board=CubeOrange
+war plane
+```
+
+Also see
+> Tutorial: https://ardupilot.org/dev/docs/building-setup-linux.html#building-setup-linux
 
 # Running a Simulation
 First, launch a plane simulation use `~/ardupilot/ArduPlane$ sim_vehicle.py -v ArduPlane --map --console`
 
 Next, run a MAVROS node to test connecting to the simulated plane.
 `roslaunch mavros apm.launch fcu_url:=udp://127.0.0.1:14550@`
-We used the address listed as "link 0" in the ardupilot simulation, listed in the fcu_url paramater. Also look at the https://ardupilot.org/dev/docs/ros-connecting.html for a tutorial, and http://wiki.ros.org/mavros#Usage for other connection types.
 
+We used the address listed as "link 0" in the ardupilot simulation, listed in the fcu_url paramater.
+
+Also see:
+> Tutorial: https://ardupilot.org/dev/docs/ros-connecting.html
+> Connection Types: http://wiki.ros.org/mavros#Usage
