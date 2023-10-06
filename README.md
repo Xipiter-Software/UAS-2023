@@ -1,27 +1,24 @@
 # UAS-2023 Documentation
-## Tutorials
-ROS Basics: http://wiki.ros.org/ROS/Tutorials
-Follow as many as possible
-1-8, 10-11, 13-14, 16-18 are important
+Go through the steps in this to get an understanding of ROS, and how we can use it in our project.
+
 ## Competition
 Reading the rules
 SUAS: https://suas-competition.org/competitions
+
 # Setup
 ## Linux Enviroment
 ### Uning Linux
-## Install Software
-### ROS
-### ArduPilot
 
-# Development
-## Github Setup
-1. Install the GitHub CLI with `snap install gh`
-2. Run `gh auth login` to link your GitHub account to loginto `GitHub.com` and use the `HTTPS` and `Login with a Browswer` options.
-4. Make sure you have been added as a member to the `Xipiter-Software` organization. This way you can commiit your changes to the team's repository
+## ROS
+ROS Basics: http://wiki.ros.org/ROS/Tutorials
+Follow as many as possible
+1-8, 10-11, 13-14, 16-18 are important
 
 ## MAVROS
 MAVROS is a ROS package that handles communication between our companion computer and flight computer.
 
+Also see
+> https://github.com/mavlink/mavros/blob/master/mavros/README.md#installation
 
 ## MAVLink
 MAVLink is just a protocol that is used to communicate commands and data
@@ -56,6 +53,13 @@ war plane
 
 Also see
 > Tutorial: https://ardupilot.org/dev/docs/building-setup-linux.html#building-setup-linux
+
+# Development
+
+## Github Setup
+1. Install the GitHub CLI with `snap install gh`
+2. Run `gh auth login` to link your GitHub account to loginto `GitHub.com` and use the `HTTPS` and `Login with a Browswer` options.
+4. Make sure you have been added as a member to the `Xipiter-Software` organization. This way you can commiit your changes to the team's repository
 
 # Running a Simulation
 First, launch a plane simulation use `~/ardupilot/ArduPlane$ sim_vehicle.py -v ArduPlane --map --console`
