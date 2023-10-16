@@ -1,13 +1,16 @@
 # UAS-2023 Documentation
-Go through the steps in this to get an understanding of ROS, and how we can use it in our project.
+This is a collection of information and steps taken during our journey towards creating an autopilot for this year's aircraft. It details the setup of our development environment, the hardware we use(d), any supporting softwares and why we chose them, and the thought process behind our design decisions. This is being written as we develop the autopilot with our new software subteam members, so it may not be complete upon viewing.
 
 ## Competition
-Reading the rules
-SUAS: https://suas-competition.org/competitions
+The SUAS rulesets for the competition years can be found at https://suas-competition.org/competitions  
+Every year, a new competition ruleset is released; whether that be to detail new competition elements or tweaks to previous elements.  
+
+The general theme for each competition is that of a search & rescue mission. Teams are tasked with flying a waypoint course to "arrive" at the incident scene. There the UAV will identify ground targets and conduct payload drops at their corresponding markers. The aircraft is required to perform the mission autonomously (while takeoff & landing may be manually conducted).
 
 # Setup
 ## Linux Enviroment
-### Uning Linux
+Ubuntu version 20.04 (Focal) is used for the development environment. This can either be run natively on your machine or through a virtual machine. This decision was made in order to run ROS Noetic which is not supported in later versions of Ubuntu.
+### Using Linux
 
 ## ROS
 ROS Basics: http://wiki.ros.org/ROS/Tutorials
