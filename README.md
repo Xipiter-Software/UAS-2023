@@ -50,8 +50,8 @@ Tools/environment_install/install-prereqs-ubuntu.sh -y
 
 Finally, build ArduPilot. This may take a while, (10-30 minutes).
 ```
-waf configure build --board=CubeOrange
-war plane
+./waf configure build --board=CubeOrange
+./waf plane
 ```
 
 Also see
@@ -68,7 +68,7 @@ Also see
 First, launch a plane simulation use `~/ardupilot/ArduPlane$ sim_vehicle.py -v ArduPlane --map --console`
 
 Next, run a MAVROS node to test connecting to the simulated plane.
-`roslaunch mavros apm.launch fcu_url:=udp://127.0.0.1:14550@`
+`~/catkin_ws roslaunch mavros apm.launch fcu_url:=udp://127.0.0.1:14550@`
 
 We used the address listed as "link 0" in the ardupilot simulation, listed in the fcu_url paramater.
 
