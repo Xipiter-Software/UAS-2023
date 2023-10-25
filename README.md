@@ -28,6 +28,7 @@ MAVLink is just a protocol that is used to communicate commands and data
 
 Also see
 > https://mavlink.io/en/about/overview.html
+> https://mavlink.io/en/messages/common.html
 
 ## ArduPilot
 Clone the ArduPilot github to your home folder.
@@ -65,13 +66,39 @@ Also see
 4. Make sure you have been added as a member to the `Xipiter-Software` organization. This way you can commiit your changes to the team's repository
 
 # Running a Simulation
-First, launch a plane simulation use `~/ardupilot/ArduPlane$ sim_vehicle.py -v ArduPlane --map --console`
+##  Step 1: ArduPlane
+Launch a plane simulation use `~/ardupilot/ArduPlane$ sim_vehicle.py -v ArduPlane --map --console`
 
-Next, run a MAVROS node to test connecting to the simulated plane.
-`~/catkin_ws roslaunch mavros apm.launch fcu_url:=udp://127.0.0.1:14550@`
+## Step 2: ROS Nodes
+
+1. Run roscore
+2. To prevent timesync issues (a warning that occurs when running the default mavros apm.launch file) set timesync_rate to 0.
+```
+# file /opt/ros/noetic/share/mavros/launch/px4_config.yaml
+timesync_rate: 0    # TIMESYNC rate in Hertz (10.0 is default, feature disabled if 0.0)
+```
+3. Run a MAVROS node to test connecting to the simulated plane.
+`~/catkin_ws roslaunch mavros px4.launch fcu_url:=udp://127.0.0.1:14550@`
 
 We used the address listed as "link 0" in the ardupilot simulation, listed in the fcu_url paramater.
 
+## Step 3:
+```
+rosrun mavros mavsafety arm
+rosrun mavros mavsys mode -c takeoff
+rosrun mavros mavcmd land 355.6 -35.36314024 149.16520213 0
+
+```
+Next steps:
+1. Find source MAVROS files
+2. Include in catkin_ws project
+
+Camera/Image Processing Designs
+1. People make model
+2. People make dataset
+3. People setup camera
+
+`inteigent quads`
 Also see:
 > Tutorial: https://ardupilot.org/dev/docs/ros-connecting.html
 > Connection Types: http://wiki.ros.org/mavros#Usage
