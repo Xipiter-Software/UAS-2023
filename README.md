@@ -17,6 +17,7 @@ https://docs.github.com/en/get-started/quickstart/fork-a-repo
 
 ## Linux Enviroment
 Ubuntu version 20.04 (Focal) is used for the development environment. This can either be run natively on your machine or through a virtual machine. This decision was made in order to run ROS Noetic which is not supported in later versions of Ubuntu.
+https://old-releases.ubuntu.com/releases/20.04/
 ### Using Linux
 
 ## ROS
