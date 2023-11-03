@@ -1,0 +1,1 @@
+/home/xipiter/catkin_ws/devel/.private/uas/lib/pkgconfig/uas.pc

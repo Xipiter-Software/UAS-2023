@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20231101-0211-Experimental"
+	Name="xipiter-VirtualBox"
+	Generator="ctest-3.16.3"
+	CompilerName="/usr/lib/ccache/c++"
+	CompilerVersion="9.4.0"
+	OSName="Linux"
+	Hostname="xipiter-VirtualBox"
+	OSRelease="5.4.0-162-generic"
+	OSVersion="#179-Ubuntu SMP Mon Aug 14 08:51:31 UTC 2023"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="165"
+	ProcessorCacheSize="12288"
+	NumberOfLogicalCPU="2"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="1873"
+	TotalPhysicalMemory="3920"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2592"
+	>
+	<Testing>
+		<StartDateTime>Oct 31 21:11 CDT</StartDateTime>
+		<StartTestTime>1698804683</StartTestTime>
+		<TestList/>
+		<EndDateTime>Oct 31 21:11 CDT</EndDateTime>
+		<EndTestTime>1698804683</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

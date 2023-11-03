@@ -1,0 +1,6 @@
+[31m[1mCMake Error[0m at /home/xipiter/catkin_ws/src/uas/CMakeLists.txt:37 (target_link_libraries):
+  Cannot specify link libraries for target "uas_arm" which is not built by
+  this project.
+
+
+make: *** [Makefile:574: cmake_check_build_system] Error 1

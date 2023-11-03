@@ -1,0 +1,8 @@
+prefix=/home/xipiter/catkin_ws/devel/.private/uas
+
+Name: uas
+Description: Description of uas
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
