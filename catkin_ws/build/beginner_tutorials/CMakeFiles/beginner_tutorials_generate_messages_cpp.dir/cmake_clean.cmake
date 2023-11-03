@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/xipiter/catkin_ws/devel/.private/beginner_tutorials/include/beginner_tutorials/AddTwoInts.h"
-  "/home/xipiter/catkin_ws/devel/.private/beginner_tutorials/include/beginner_tutorials/Num.h"
+  "../devel/include/beginner_tutorials/AddTwoInts.h"
+  "../devel/include/beginner_tutorials/Num.h"
   "CMakeFiles/beginner_tutorials_generate_messages_cpp"
 )
 

@@ -1,4 +1,4 @@
-prefix=/home/xipiter/catkin_ws/install
+prefix=/usr/local
 
 Name: uas
 Description: Description of uas

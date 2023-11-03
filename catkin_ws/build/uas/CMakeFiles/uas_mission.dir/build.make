@@ -43,32 +43,32 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xipiter/catkin_ws/src/uas
+CMAKE_SOURCE_DIR = /home/xipiter/UAS-2023/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xipiter/catkin_ws/build/uas
+CMAKE_BINARY_DIR = /home/xipiter/UAS-2023/build
 
 # Include any dependencies generated for this target.
-include CMakeFiles/uas_mission.dir/depend.make
+include uas/CMakeFiles/uas_mission.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/uas_mission.dir/progress.make
+include uas/CMakeFiles/uas_mission.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/uas_mission.dir/flags.make
+include uas/CMakeFiles/uas_mission.dir/flags.make
 
-CMakeFiles/uas_mission.dir/src/uas_mission.cpp.o: CMakeFiles/uas_mission.dir/flags.make
-CMakeFiles/uas_mission.dir/src/uas_mission.cpp.o: /home/xipiter/catkin_ws/src/uas/src/uas_mission.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xipiter/catkin_ws/build/uas/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/uas_mission.dir/src/uas_mission.cpp.o"
-	/usr/lib/ccache/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uas_mission.dir/src/uas_mission.cpp.o -c /home/xipiter/catkin_ws/src/uas/src/uas_mission.cpp
+uas/CMakeFiles/uas_mission.dir/src/uas_mission.cpp.o: uas/CMakeFiles/uas_mission.dir/flags.make
+uas/CMakeFiles/uas_mission.dir/src/uas_mission.cpp.o: /home/xipiter/UAS-2023/catkin_ws/src/uas/src/uas_mission.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xipiter/UAS-2023/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object uas/CMakeFiles/uas_mission.dir/src/uas_mission.cpp.o"
+	cd /home/xipiter/UAS-2023/build/uas && /usr/lib/ccache/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uas_mission.dir/src/uas_mission.cpp.o -c /home/xipiter/UAS-2023/catkin_ws/src/uas/src/uas_mission.cpp
 
-CMakeFiles/uas_mission.dir/src/uas_mission.cpp.i: cmake_force
+uas/CMakeFiles/uas_mission.dir/src/uas_mission.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uas_mission.dir/src/uas_mission.cpp.i"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xipiter/catkin_ws/src/uas/src/uas_mission.cpp > CMakeFiles/uas_mission.dir/src/uas_mission.cpp.i
+	cd /home/xipiter/UAS-2023/build/uas && /usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xipiter/UAS-2023/catkin_ws/src/uas/src/uas_mission.cpp > CMakeFiles/uas_mission.dir/src/uas_mission.cpp.i
 
-CMakeFiles/uas_mission.dir/src/uas_mission.cpp.s: cmake_force
+uas/CMakeFiles/uas_mission.dir/src/uas_mission.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uas_mission.dir/src/uas_mission.cpp.s"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xipiter/catkin_ws/src/uas/src/uas_mission.cpp -o CMakeFiles/uas_mission.dir/src/uas_mission.cpp.s
+	cd /home/xipiter/UAS-2023/build/uas && /usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xipiter/UAS-2023/catkin_ws/src/uas/src/uas_mission.cpp -o CMakeFiles/uas_mission.dir/src/uas_mission.cpp.s
 
 # Object files for target uas_mission
 uas_mission_OBJECTS = \
@@ -77,39 +77,39 @@ uas_mission_OBJECTS = \
 # External object files for target uas_mission
 uas_mission_EXTERNAL_OBJECTS =
 
-/home/xipiter/catkin_ws/devel/.private/uas/lib/uas/uas_mission: CMakeFiles/uas_mission.dir/src/uas_mission.cpp.o
-/home/xipiter/catkin_ws/devel/.private/uas/lib/uas/uas_mission: CMakeFiles/uas_mission.dir/build.make
-/home/xipiter/catkin_ws/devel/.private/uas/lib/uas/uas_mission: /opt/ros/noetic/lib/libroscpp.so
-/home/xipiter/catkin_ws/devel/.private/uas/lib/uas/uas_mission: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/xipiter/catkin_ws/devel/.private/uas/lib/uas/uas_mission: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/xipiter/catkin_ws/devel/.private/uas/lib/uas/uas_mission: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/xipiter/catkin_ws/devel/.private/uas/lib/uas/uas_mission: /opt/ros/noetic/lib/librosconsole.so
-/home/xipiter/catkin_ws/devel/.private/uas/lib/uas/uas_mission: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/xipiter/catkin_ws/devel/.private/uas/lib/uas/uas_mission: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/xipiter/catkin_ws/devel/.private/uas/lib/uas/uas_mission: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/xipiter/catkin_ws/devel/.private/uas/lib/uas/uas_mission: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/xipiter/catkin_ws/devel/.private/uas/lib/uas/uas_mission: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/xipiter/catkin_ws/devel/.private/uas/lib/uas/uas_mission: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/xipiter/catkin_ws/devel/.private/uas/lib/uas/uas_mission: /opt/ros/noetic/lib/librostime.so
-/home/xipiter/catkin_ws/devel/.private/uas/lib/uas/uas_mission: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/xipiter/catkin_ws/devel/.private/uas/lib/uas/uas_mission: /opt/ros/noetic/lib/libcpp_common.so
-/home/xipiter/catkin_ws/devel/.private/uas/lib/uas/uas_mission: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/xipiter/catkin_ws/devel/.private/uas/lib/uas/uas_mission: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/xipiter/catkin_ws/devel/.private/uas/lib/uas/uas_mission: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/xipiter/catkin_ws/devel/.private/uas/lib/uas/uas_mission: CMakeFiles/uas_mission.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xipiter/catkin_ws/build/uas/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/xipiter/catkin_ws/devel/.private/uas/lib/uas/uas_mission"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/uas_mission.dir/link.txt --verbose=$(VERBOSE)
+devel/lib/uas/uas_mission: uas/CMakeFiles/uas_mission.dir/src/uas_mission.cpp.o
+devel/lib/uas/uas_mission: uas/CMakeFiles/uas_mission.dir/build.make
+devel/lib/uas/uas_mission: /opt/ros/noetic/lib/libroscpp.so
+devel/lib/uas/uas_mission: /usr/lib/x86_64-linux-gnu/libpthread.so
+devel/lib/uas/uas_mission: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+devel/lib/uas/uas_mission: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+devel/lib/uas/uas_mission: /opt/ros/noetic/lib/librosconsole.so
+devel/lib/uas/uas_mission: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+devel/lib/uas/uas_mission: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+devel/lib/uas/uas_mission: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+devel/lib/uas/uas_mission: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+devel/lib/uas/uas_mission: /opt/ros/noetic/lib/libxmlrpcpp.so
+devel/lib/uas/uas_mission: /opt/ros/noetic/lib/libroscpp_serialization.so
+devel/lib/uas/uas_mission: /opt/ros/noetic/lib/librostime.so
+devel/lib/uas/uas_mission: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+devel/lib/uas/uas_mission: /opt/ros/noetic/lib/libcpp_common.so
+devel/lib/uas/uas_mission: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+devel/lib/uas/uas_mission: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+devel/lib/uas/uas_mission: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+devel/lib/uas/uas_mission: uas/CMakeFiles/uas_mission.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xipiter/UAS-2023/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../devel/lib/uas/uas_mission"
+	cd /home/xipiter/UAS-2023/build/uas && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/uas_mission.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/uas_mission.dir/build: /home/xipiter/catkin_ws/devel/.private/uas/lib/uas/uas_mission
+uas/CMakeFiles/uas_mission.dir/build: devel/lib/uas/uas_mission
 
-.PHONY : CMakeFiles/uas_mission.dir/build
+.PHONY : uas/CMakeFiles/uas_mission.dir/build
 
-CMakeFiles/uas_mission.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/uas_mission.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/uas_mission.dir/clean
+uas/CMakeFiles/uas_mission.dir/clean:
+	cd /home/xipiter/UAS-2023/build/uas && $(CMAKE_COMMAND) -P CMakeFiles/uas_mission.dir/cmake_clean.cmake
+.PHONY : uas/CMakeFiles/uas_mission.dir/clean
 
-CMakeFiles/uas_mission.dir/depend:
-	cd /home/xipiter/catkin_ws/build/uas && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xipiter/catkin_ws/src/uas /home/xipiter/catkin_ws/src/uas /home/xipiter/catkin_ws/build/uas /home/xipiter/catkin_ws/build/uas /home/xipiter/catkin_ws/build/uas/CMakeFiles/uas_mission.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/uas_mission.dir/depend
+uas/CMakeFiles/uas_mission.dir/depend:
+	cd /home/xipiter/UAS-2023/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xipiter/UAS-2023/catkin_ws/src /home/xipiter/UAS-2023/catkin_ws/src/uas /home/xipiter/UAS-2023/build /home/xipiter/UAS-2023/build/uas /home/xipiter/UAS-2023/build/uas/CMakeFiles/uas_mission.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : uas/CMakeFiles/uas_mission.dir/depend
 

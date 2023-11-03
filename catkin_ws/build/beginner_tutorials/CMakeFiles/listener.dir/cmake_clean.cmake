@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/xipiter/catkin_ws/devel/.private/beginner_tutorials/lib/beginner_tutorials/listener"
-  "/home/xipiter/catkin_ws/devel/.private/beginner_tutorials/lib/beginner_tutorials/listener.pdb"
+  "../devel/lib/beginner_tutorials/listener"
+  "../devel/lib/beginner_tutorials/listener.pdb"
   "CMakeFiles/listener.dir/src/listener.cpp.o"
 )
 

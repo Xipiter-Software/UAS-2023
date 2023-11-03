@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/xipiter/catkin_ws/devel/.private/beginner_tutorials/lib/beginner_tutorials/talker"
-  "/home/xipiter/catkin_ws/devel/.private/beginner_tutorials/lib/beginner_tutorials/talker.pdb"
+  "../devel/lib/beginner_tutorials/talker"
+  "../devel/lib/beginner_tutorials/talker.pdb"
   "CMakeFiles/talker.dir/src/talker.cpp.o"
 )
 

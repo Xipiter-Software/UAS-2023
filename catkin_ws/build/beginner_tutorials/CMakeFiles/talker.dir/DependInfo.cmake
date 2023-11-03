@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xipiter/catkin_ws/src/beginner_tutorials/src/talker.cpp" "/home/xipiter/catkin_ws/build/beginner_tutorials/CMakeFiles/talker.dir/src/talker.cpp.o"
+  "/home/xipiter/UAS-2023/catkin_ws/src/beginner_tutorials/src/talker.cpp" "/home/xipiter/UAS-2023/build/beginner_tutorials/CMakeFiles/talker.dir/src/talker.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +17,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/xipiter/catkin_ws/devel/.private/beginner_tutorials/include"
-  "/home/xipiter/catkin_ws/src/beginner_tutorials/include"
+  "devel/include"
+  "/home/xipiter/UAS-2023/catkin_ws/src/beginner_tutorials/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

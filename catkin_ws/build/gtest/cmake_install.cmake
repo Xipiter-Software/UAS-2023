@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/xipiter/catkin_ws/build/gtest/googlemock/cmake_install.cmake")
+  include("/home/xipiter/UAS-2023/build/gtest/googlemock/cmake_install.cmake")
 
 endif()
 
