@@ -1,0 +1,8 @@
+prefix=/home/xipiter/UAS-2023/build/devel
+
+Name: beginner_tutorials
+Description: Description of beginner_tutorials
+Version: 0.0.0
+Cflags: -I/home/xipiter/UAS-2023/build/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

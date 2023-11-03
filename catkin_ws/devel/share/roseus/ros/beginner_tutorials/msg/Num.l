@@ -1,0 +1,1 @@
+/home/xipiter/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials/msg/Num.l

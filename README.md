@@ -36,6 +36,7 @@ MAVLink is just a protocol that is used to communicate commands and data
 
 Also, see
 > https://mavlink.io/en/about/overview.html
+> https://mavlink.io/en/messages/common.html
 
 ## ArduPilot
 Clone the ArduPilot GitHub to your home folder.
@@ -73,13 +74,31 @@ Also, see
 4. Make sure you have been added as a member of the `Xipiter-Software` organization. This way you can commit your changes to the team's repository
 
 # Running a Simulation
-First, launch a plane simulation use `~/ardupilot/ArduPlane$ sim_vehicle.py -v ArduPlane --map --console`
+##  Step 1: ArduPlane
+Launch a plane simulation use `~/ardupilot/ArduPlane$ sim_vehicle.py -v ArduPlane --map --console`
 
 Next, run a MAVROS node to test connecting to the simulated plane.
-`~/catkin_ws$ roslaunch mavros apm.launch fcu_url:=udp://127.0.0.1:14550@`
+`~/catkin_ws roslaunch mavros apm.launch fcu_url:=udp://127.0.0.1:14550@`
 
 We used the address listed as "link 0" in the Ardupilot simulation, listed in the fcu_url parameter.
 
+## Step 3:
+```
+rosrun mavros mavsafety arm
+rosrun mavros mavsys mode -c takeoff
+rosrun mavros mavcmd land 355.6 -35.36314024 149.16520213 0
+
+```
+Next steps:
+1. Find source MAVROS files
+2. Include in catkin_ws project
+
+Camera/Image Processing Designs
+1. People make model
+2. People make dataset
+3. People setup camera
+
+`inteigent quads`
 Also see:
 > Tutorial: https://ardupilot.org/dev/docs/ros-connecting.html
 > Connection Types: http://wiki.ros.org/mavros#Usage

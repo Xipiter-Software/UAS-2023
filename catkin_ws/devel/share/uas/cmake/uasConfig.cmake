@@ -1,0 +1,1 @@
+/home/xipiter/catkin_ws/devel/.private/uas/share/uas/cmake/uasConfig.cmake
