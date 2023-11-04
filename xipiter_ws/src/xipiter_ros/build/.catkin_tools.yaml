@@ -1,0 +1,6 @@
+devel_space: /home/greyson/xipiter_ws/src/xipiter_ros/devel
+install: false
+install_space: /home/greyson/xipiter_ws/src/xipiter_ros/install
+profile: default
+source_space: /home/greyson/xipiter_ws/src/xipiter_ros/src
+workspace: /home/greyson/xipiter_ws/src/xipiter_ros

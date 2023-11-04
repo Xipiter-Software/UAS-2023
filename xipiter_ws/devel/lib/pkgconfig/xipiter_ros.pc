@@ -1,0 +1,8 @@
+prefix=/home/greyson/xipiter_ws/devel
+
+Name: xipiter_ros
+Description: Description of xipiter_ros
+Version: 0.0.0
+Cflags: -I/home/greyson/xipiter_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime
