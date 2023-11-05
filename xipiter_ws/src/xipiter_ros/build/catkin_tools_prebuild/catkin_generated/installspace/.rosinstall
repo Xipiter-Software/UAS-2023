@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/greyson/xipiter_ws/src/xipiter_ros/install/setup.sh
+    local-name: /home/xipiter/UAS-2023/xipiter_ws/src/xipiter_ros/install/setup.sh

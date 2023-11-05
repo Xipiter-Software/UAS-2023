@@ -1,5 +1,0 @@
-[31m[1mCMake Error[0m at /home/xipiter/catkin_ws/src/uas/CMakeLists.txt:38 (add_dependencies):
-  The dependency target "uas_gencpp" of target "uas_arm" does not exist.
-
-
-CMake Generate step failed.  Build files cannot be regenerated correctly.

@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/greyson/xipiter_ws/src/xipiter_ros/install")
+  set(CMAKE_INSTALL_PREFIX "/home/xipiter/UAS-2023/xipiter_ws/src/xipiter_ros/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

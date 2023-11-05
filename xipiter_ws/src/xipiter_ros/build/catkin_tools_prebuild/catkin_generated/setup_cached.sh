@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/greyson/xipiter_ws/src/xipiter_ros/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
-export PWD='/home/greyson/xipiter_ws/src/xipiter_ros/build/catkin_tools_prebuild'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/greyson/xipiter_ws/src/xipiter_ros/devel/.private/catkin_tools_prebuild/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/greyson/xipiter_ws/src/xipiter_ros/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/xipiter/UAS-2023/xipiter_ws/src/xipiter_ros/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
+export PWD='/home/xipiter/UAS-2023/xipiter_ws/src/xipiter_ros/build/catkin_tools_prebuild'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/xipiter/UAS-2023/xipiter_ws/src/xipiter_ros/devel/.private/catkin_tools_prebuild/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/xipiter/UAS-2023/xipiter_ws/src/xipiter_ros/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"

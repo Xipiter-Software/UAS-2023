@@ -52,7 +52,6 @@ add_message_files( #added message(s) to build
     FILES
 #   Message1.msg
 #   Message2.msg
-    Num.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -60,7 +59,6 @@ add_service_files( #added service(s) to build
    FILES
 #   Service1.srv
 #   Service2.srv
-   AddTwoInts.srv
 )
 
 ## Generate actions in the 'action' folder
@@ -214,24 +212,8 @@ include_directories(
 ##################
 
 #adding publisher talker
-add_executable(talker src/talker.cpp)
-target_link_libraries(talker ${catkin_LIBRARIES})
-add_dependencies(talker xipiter_ros_generate_messages_cpp) #package_name_gener....
-
-#adding subscriber listener
-add_executable(listener src/listener.cpp)
-target_link_libraries(listener ${catkin_LIBRARIES})
-add_dependencies(listener xipiter_ros_generate_messages_cpp) #package_name_gener....
-
-add_executable(add_two_ints_server src/add_two_ints_server.cpp)
-target_link_libraries(add_two_ints_server ${catkin_LIBRARIES})
-add_dependencies(add_two_ints_server xipiter_ros_gencpp)
-
-add_executable(add_two_ints_client src/add_two_ints_client.cpp)
-target_link_libraries(add_two_ints_client ${catkin_LIBRARIES})
-add_dependencies(add_two_ints_client xipiter_ros_gencpp)
-
 add_executable(takeoff_demo src/takeoff_demo.cpp)
+add_library(ros_services src/ros_services.cpp)
 target_link_libraries(takeoff_demo ${catkin_LIBRARIES})
+target_link_libraries(takeoff_demo ros_services)
 add_dependencies(takeoff_demo xipiter_ros_gencpp)
-
