@@ -96,7 +96,7 @@ int main(int argc, char** argv){
 
     for(int i = 1; i < 9; i++){
         wp_item.frame = mavros_msgs::Waypoint::FRAME_GLOBAL_REL_ALT;
-        wp_item.command = mavros_msgs::CommandCode::NAV_TAKEOFF;
+        wp_item.command = mavros_msgs::CommandCode::NAV_WAYPOINT;
         wp_item.is_current = false;
         wp_item.autocontinue = true;
         wp_item.x_lat = lat_distr(generator);
