@@ -1,0 +1,48 @@
+Symlinking /home/xipiter/UAS-2023/xipiter_ws/src/xipiter_ros/devel/./local_setup.sh
+Symlinking /home/xipiter/UAS-2023/xipiter_ws/src/xipiter_ros/devel/./env.sh
+Symlinking /home/xipiter/UAS-2023/xipiter_ws/src/xipiter_ros/devel/./setup.bash
+Symlinking /home/xipiter/UAS-2023/xipiter_ws/src/xipiter_ros/devel/./local_setup.bash
+Symlinking /home/xipiter/UAS-2023/xipiter_ws/src/xipiter_ros/devel/./cmake.lock
+Symlinking /home/xipiter/UAS-2023/xipiter_ws/src/xipiter_ros/devel/./setup.sh
+Symlinking /home/xipiter/UAS-2023/xipiter_ws/src/xipiter_ros/devel/./local_setup.zsh
+Symlinking /home/xipiter/UAS-2023/xipiter_ws/src/xipiter_ros/devel/./setup.zsh
+Symlinking /home/xipiter/UAS-2023/xipiter_ws/src/xipiter_ros/devel/./_setup_util.py
+Symlinking /home/xipiter/UAS-2023/xipiter_ws/src/xipiter_ros/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/xipiter/UAS-2023/xipiter_ws/src/xipiter_ros/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/xipiter/UAS-2023/xipiter_ws/src/xipiter_ros/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Cleaning: (/home/greyson/xipiter_ws/src/xipiter_ros/devel/.private/catkin_tools_prebuild/_setup_util.py, /home/greyson/xipiter_ws/src/xipiter_ros/devel/./_setup_util.py)
+Cleaning: (/home/greyson/xipiter_ws/src/xipiter_ros/devel/.private/catkin_tools_prebuild/local_setup.sh, /home/greyson/xipiter_ws/src/xipiter_ros/devel/./local_setup.sh)
+Cleaning: (/home/greyson/xipiter_ws/src/xipiter_ros/devel/.private/catkin_tools_prebuild/setup.sh, /home/greyson/xipiter_ws/src/xipiter_ros/devel/./setup.sh)
+Cleaning: (/home/greyson/xipiter_ws/src/xipiter_ros/devel/.private/catkin_tools_prebuild/local_setup.zsh, /home/greyson/xipiter_ws/src/xipiter_ros/devel/./local_setup.zsh)
+Cleaning: (/home/greyson/xipiter_ws/src/xipiter_ros/devel/.private/catkin_tools_prebuild/setup.bash, /home/greyson/xipiter_ws/src/xipiter_ros/devel/./setup.bash)
+Cleaning: (/home/greyson/xipiter_ws/src/xipiter_ros/devel/.private/catkin_tools_prebuild/env.sh, /home/greyson/xipiter_ws/src/xipiter_ros/devel/./env.sh)
+Cleaning: (/home/greyson/xipiter_ws/src/xipiter_ros/devel/.private/catkin_tools_prebuild/setup.zsh, /home/greyson/xipiter_ws/src/xipiter_ros/devel/./setup.zsh)
+Cleaning: (/home/greyson/xipiter_ws/src/xipiter_ros/devel/.private/catkin_tools_prebuild/cmake.lock, /home/greyson/xipiter_ws/src/xipiter_ros/devel/./cmake.lock)
+Cleaning: (/home/greyson/xipiter_ws/src/xipiter_ros/devel/.private/catkin_tools_prebuild/local_setup.bash, /home/greyson/xipiter_ws/src/xipiter_ros/devel/./local_setup.bash)
+Cleaning: (/home/greyson/xipiter_ws/src/xipiter_ros/devel/.private/catkin_tools_prebuild/lib/pkgconfig/catkin_tools_prebuild.pc, /home/greyson/xipiter_ws/src/xipiter_ros/devel/lib/pkgconfig/catkin_tools_prebuild.pc)
+Cleaning: (/home/greyson/xipiter_ws/src/xipiter_ros/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake, /home/greyson/xipiter_ws/src/xipiter_ros/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake)
+Cleaning: (/home/greyson/xipiter_ws/src/xipiter_ros/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake, /home/greyson/xipiter_ws/src/xipiter_ros/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake)
+Unlinking: /home/greyson/xipiter_ws/src/xipiter_ros/devel/./_setup_util.py
+Already unlinked: {}
+Unlinking: /home/greyson/xipiter_ws/src/xipiter_ros/devel/./local_setup.sh
+Already unlinked: {}
+Unlinking: /home/greyson/xipiter_ws/src/xipiter_ros/devel/./setup.sh
+Already unlinked: {}
+Unlinking: /home/greyson/xipiter_ws/src/xipiter_ros/devel/./local_setup.zsh
+Already unlinked: {}
+Unlinking: /home/greyson/xipiter_ws/src/xipiter_ros/devel/./setup.bash
+Already unlinked: {}
+Unlinking: /home/greyson/xipiter_ws/src/xipiter_ros/devel/./env.sh
+Already unlinked: {}
+Unlinking: /home/greyson/xipiter_ws/src/xipiter_ros/devel/./setup.zsh
+Already unlinked: {}
+Unlinking: /home/greyson/xipiter_ws/src/xipiter_ros/devel/./cmake.lock
+Already unlinked: {}
+Unlinking: /home/greyson/xipiter_ws/src/xipiter_ros/devel/./local_setup.bash
+Already unlinked: {}
+Unlinking: /home/greyson/xipiter_ws/src/xipiter_ros/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Already unlinked: {}
+Unlinking: /home/greyson/xipiter_ws/src/xipiter_ros/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/greyson/xipiter_ws/src/xipiter_ros/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Already unlinked: {}
