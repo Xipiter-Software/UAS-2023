@@ -211,9 +211,18 @@ include_directories(
 ## Adding Execs ##
 ##################
 
-#adding publisher talker
+# Mission Demo
+add_executable(mission_demo src/mission_demo.cpp)
+target_link_libraries(mission_demo ${catkin_LIBRARIES})
+
+add_library(uas_control src/uas_control.cpp)
+add_library(uas_extention src/extention_example.cpp)
+target_link_libraries(mission_demo uas_control uas_extention)
+
+add_dependencies(mission_demo xipiter_ros_gencpp)
+
+# Takeoff Demo
 add_executable(takeoff_demo src/takeoff_demo.cpp)
-add_library(ros_services src/ros_services.cpp)
 target_link_libraries(takeoff_demo ${catkin_LIBRARIES})
-target_link_libraries(takeoff_demo ros_services)
+
 add_dependencies(takeoff_demo xipiter_ros_gencpp)
