@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++ -fPIC -g  -shared -Wl,-soname,libuas_control.so -o devel/lib/libuas_control.so CMakeFiles/uas_control.dir/src/uas_control.cpp.o 

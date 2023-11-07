@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++ -fPIC -g  -shared -Wl,-soname,libros_services.so -o devel/lib/libros_services.so CMakeFiles/ros_services.dir/src/ros_services.cpp.o 
