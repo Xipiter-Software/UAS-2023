@@ -1,1 +1,0 @@
-/home/xipiter/UAS-2023/xipiter_ws/src/xipiter_ros/devel/.private/catkin_tools_prebuild/local_setup.bash
