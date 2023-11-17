@@ -1,5 +1,5 @@
-#ifndef ros_services.cpp
-#define ros_services.cpp
+#ifndef HEADERFILE_H
+#define HEADERFILE_H
 
 #include <ros/ros.h>
 #include <string.h>
@@ -40,7 +40,8 @@ public:
     //Example class extention declaration
     int captureImage();
 
-    
+    int wpPushTest();
+
 };
 
 #endif
