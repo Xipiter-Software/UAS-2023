@@ -171,8 +171,8 @@ int main(int argc, char** argv){
     wp_item.command = mavros_msgs::CommandCode::NAV_TAKEOFF;
     wp_item.is_current = true;
     wp_item.autocontinue = true;
-    wp_item.x_lat = 0;
-    wp_item.y_long = 0;
+    wp_item.x_lat = -35.36029651;
+    wp_item.y_long = 149.16485432;
     wp_item.z_alt = 100;
     waypointRequest.request.waypoints.push_back(wp_item);
 
@@ -211,7 +211,7 @@ int main(int argc, char** argv){
     wp_item.z_alt = 0; //uh maybe not 0, probably 100
     waypointRequest.request.waypoints.push_back(wp_item);
 
-
+    waypointRequest.request.start_index = 0;
     if(waypointSrv.call(waypointRequest)){
         ROS_INFO("Sent waypoints: %d", waypointRequest.response.success);
     }else{

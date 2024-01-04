@@ -15,7 +15,7 @@ https://github.com/skills/introduction-to-github
 To write code and contribute to this repository, follow this tutorial to fork (make a personal copy), and clone (download the personal copy to your PC), so that you have access to the teams' repository.
 https://docs.github.com/en/get-started/quickstart/fork-a-repo
 
-## Linux Enviroment
+## Linux Environment
 Ubuntu version 20.04 (Focal) is used for the development environment. This can either be run natively on your machine or through a virtual machine. This decision was made in order to run ROS Noetic which is not supported in later versions of Ubuntu.
 https://old-releases.ubuntu.com/releases/20.04/
 ### Using Linux

@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target uas_mission[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/uas_mission.dir/src/uas_mission.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/xipiter/catkin_ws/devel/.private/uas/lib/uas/uas_mission[0m
-[100%] Built target uas_mission

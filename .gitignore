@@ -1,0 +1,4 @@
+# Ignore all build, dev and .catkin_tools folder
+build/
+dev/
+.catkin_tools/
